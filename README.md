@@ -1,19 +1,2 @@
-# portfolio
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Portfolio (Vue.JS project v0.1)
+This is my personal portfolio to show some of my web development jobs. It is entirely made with Vue.js 3.
