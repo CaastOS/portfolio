@@ -47,6 +47,7 @@ export default {
 </script>
 
 <style>
+
 a.nostyle:link {
   text-decoration: inherit;
   color: rgb(68, 139, 184);
@@ -78,7 +79,7 @@ a.nostyle:visited {
 #terminal > ul {
   margin-left: -2rem;
 }
-.terminal,
+
 .terminal:before,
 .terminal:after,
 .terminal p:after {
@@ -89,8 +90,7 @@ a.nostyle:visited {
   font-family: "Roboto Mono", monospace;
   height: 100vh;
   width: 80vw;
-  margin: 0 auto;
-  margin-top: 5vh;
+  margin: 5vh auto;
   padding: 25px 5px 5px;
   border-radius: 10px;
   background: linear-gradient(

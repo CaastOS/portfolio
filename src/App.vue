@@ -12,7 +12,6 @@
     />
     <Projects :isProject="isProject" :projects="projects" />
   </div>
-  <Footer />
 </template>
 
 <script>
@@ -124,6 +123,6 @@ html {
 .container-main {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 5rem;
+  padding-bottom: 0.5rem;
 }
 </style>

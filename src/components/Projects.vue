@@ -58,7 +58,7 @@ export default {
 .content {
   width: 70%;
   margin-left: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 5vh;
 }
 
 .project-card {
