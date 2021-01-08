@@ -1,17 +1,17 @@
 <template>
   <div v-if="isProject" id="projects">
     <div class="project-card" v-for="project in projects" :key="project">
-      <img class="project-image" :src="getImgUrl(project.img)"/>
+      <img class="project-image" :src="getImgUrl(project.img)" />
       <div class="content">
-        <h3>{{project.title}}</h3>
+        <h3>{{ project.title }}</h3>
 
         <p>
-          {{project.desc}}
+          {{ project.desc }}
         </p>
         <div class="source">
           <div class="button">
             <a
-              :class="{disabled: project.isDisabled}"
+              :class="{ disabled: project.isDisabled }"
               :href="project.git"
               :target="project.target"
               class="project-link"
@@ -41,19 +41,18 @@
 <script>
 export default {
   props: ["isProject", "projects"],
-  methods: {  
+  methods: {
     getImgUrl(pic) {
-    return require('../assets/'+ pic)
-    }
-  }
+      return require("../assets/" + pic);
+    },
+  },
 };
 </script>
 
 <style>
-
 .disabled {
-  cursor:not-allowed;
-  background: gray!important;
+  cursor: not-allowed;
+  background: gray !important;
 }
 
 .content {
@@ -68,9 +67,9 @@ export default {
   margin: 0 auto;
   height: 60%;
   background: #fff;
-  -webkit-box-shadow: 0px 2px 14px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 2px 14px 3px rgba(0,0,0,0.75);
-  box-shadow: 0px 2px 14px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 2px 14px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 14px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 14px 3px rgba(0, 0, 0, 0.75);
   border-radius: 2px;
   font-family: "Playfair Display", serif;
 }
@@ -132,7 +131,9 @@ svg:not(:root).svg-inline--fa {
   background: #b86363;
   color: #fff;
   transition: all 0.15s ease;
-  box-shadow: 3px 14px 28px rgba(0, 0, 0, 0.25), 0 4px 5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
 }
 
 .project-link:hover {
@@ -184,5 +185,4 @@ svg:not(:root).svg-inline--fa {
     text-align: center;
   }
 }
-
 </style>

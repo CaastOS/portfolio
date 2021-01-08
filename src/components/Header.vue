@@ -2,11 +2,11 @@
   <h1 id="name">Claudio Castorina</h1>
   <div id="desc">
     <p>
-      Hello there! I'm Claudio, and I'm a freelancer based in Milan, Italy. When
-      I'm not designing and developing websites, I'm probably working at some
+      Hello there! I am Claudio, and I'm a freelancer based in Milan, Italy. When
+      I'm not designing and developing websites, I am probably working at some
       other data-related projects.
-      <a href="#terminal" @click="curiosity">Here</a> you can learn something
-      more about me!
+      <a href="#terminal" @click="curiosity">Here</a> you can learn more about me!
+      From September 2021 I will be starting my studies in Data Science and Artificial Intelligence at Maastricht University.
     </p>
   </div>
 </template>

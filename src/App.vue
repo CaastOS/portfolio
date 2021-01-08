@@ -46,7 +46,7 @@ export default {
         },
         { type: "favouriteColour", cont: '"#b86363"' },
         {
-          type: "humanLanguages",
+          type: "languages",
           cont: '["English", "Dutch", "German", "Italian"]',
         },
       ],
@@ -54,7 +54,7 @@ export default {
         {
           title: "Claudio Castorina's Portfolio",
           desc:
-            "That's right, that's the page you're looking at now! At the moment I think it's the site that most reflects my style, it was developed with Vue.js 3 and nothing else! All CSS, HTML and Javascript was developed by hand to ensure the most personalized experience possible.",
+            "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 and nothing else! All CSS, HTML and Javascript was developed to ensure the most personalized experience possible.",
           img: "portfolio.png",
           git: "https://github.com/Casto1387/portfolio",
           target: "_blank",
