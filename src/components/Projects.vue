@@ -50,6 +50,10 @@ export default {
 </script>
 
 <style>
+
+#projects {
+  padding-top: 5vh
+}
 .disabled {
   cursor: not-allowed;
   background: gray !important;
