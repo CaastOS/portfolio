@@ -155,7 +155,7 @@ svg:not(:root).svg-inline--fa {
   position: absolute !important;
   top: 0;
   left: 0;
-  filter: blur(9px);
+  filter: blur(5px);
 }
 
 @media (max-width: 1090px) {

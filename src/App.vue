@@ -78,7 +78,7 @@ export default {
         {
           title: "Firewall Gaming",
           desc:
-            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was created on Laravel, and my job was to develop the front-end side. The website is not availably on github for copyright reasons, but I'm available to show it to anyone interested.",
+            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was created on Laravel, and my job was to develop the front-end side. The website is not on github for copyright reasons, but I'm available to show it to anyone interested.",
           img: "firewallgaming.jpg",
           git: "#",
           isDisabled: true,
@@ -124,5 +124,6 @@ html {
 .container-main {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 5rem;
 }
 </style>
