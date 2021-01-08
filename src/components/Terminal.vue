@@ -88,9 +88,9 @@ a.nostyle:visited {
 
 .terminal {
   font-family: "Roboto Mono", monospace;
-  height: 100vh;
+  box-sizing : border-box;
   width: 80vw;
-  margin: 5vh auto;
+  margin: 5rem auto;
   padding: 25px 5px 5px;
   border-radius: 10px;
   background: linear-gradient(
