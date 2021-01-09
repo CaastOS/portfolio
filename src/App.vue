@@ -66,6 +66,13 @@ export default {
           git: "https://github.com/Casto1387/cameradascolto",
           target: "_blank",
         },
+		{
+          title: "Blackjack web app",
+          desc:
+            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla javascript.",
+          img: "blackjack.jpg",
+          git: "https://github.com/Casto1387/blackjack"
+        },
         {
           title: "Cimenailfilm",
           desc:
@@ -81,7 +88,8 @@ export default {
           img: "firewallgaming.jpg",
           git: "#",
           isDisabled: true,
-        },
+        }
+		
       ],
       isCurious: false,
       isProject: false,
