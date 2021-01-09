@@ -67,7 +67,7 @@ export default {
           target: "_blank",
         },
 		{
-          title: "Blackjack web app",
+          title: "Blackjack Web Application",
           desc:
             "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla javascript.",
           img: "blackjack.jpg",
