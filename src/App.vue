@@ -69,7 +69,7 @@ export default {
 		{
           title: "Blackjack Web Application",
           desc:
-            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla javascript.",
+            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla Javascript.",
           img: "blackjack.jpg",
           git: "https://github.com/Casto1387/blackjack"
         },
