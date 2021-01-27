@@ -55,7 +55,7 @@ export default {
           desc:
             "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 and nothing else! All CSS, HTML and Javascript was developed to ensure the most personalized experience possible.",
           img: "portfolio.png",
-          git: "https://github.com/Casto1387/portfolio",
+          git: "https://github.com/CaastOS/portfolio",
           target: "_blank",
         },
         {
@@ -63,7 +63,7 @@ export default {
           desc:
             '"Camera D\'Ascolto" was definitely the most difficult site to develop, as I was specifically required to use Mobirise, a "what you see is what you get" type editor. The hard part was to edit all the blocks to the lowest possible level and to be able to make it all work. The heroic act is on Github, although getting the hang of it is very complicated.',
           img: "cameradascolto.jpg",
-          git: "https://github.com/Casto1387/cameradascolto",
+          git: "https://github.com/CaastOS/cameradascolto",
           target: "_blank",
         },
 		{
@@ -71,7 +71,7 @@ export default {
           desc:
             "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla Javascript.",
           img: "blackjack.jpg",
-          git: "https://github.com/Casto1387/blackjack"
+          git: "https://github.com/CaastOS/blackjack"
         },
         {
           title: "Cimenailfilm",
