@@ -4,11 +4,11 @@
       <div><li class="blue">> Claudio.contactInfo</li></div>
       <div class="item">
         <span
-          >[<a class="nostyle" href="https://github.com/Casto1387" target="_blank">"GitHub"</a>,
+          >[<a class="nostyle" href="https://github.com/caastOS" target="_blank">"GitHub"</a>,
           <a class="nostyle" target="_blank" href="mailto:claudioeugenio.castorina@gmail.com"
             >"mail"</a
           >,
-          <a class="nostyle" target="_blank" href="https://www.linkedin.com/in/castori/"
+          <a class="nostyle" target="_blank" href="https://www.linkedin.com/in/claudiocastorina2/"
             >"LinkedIn"</a
           >]</span
         >
