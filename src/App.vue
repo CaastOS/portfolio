@@ -55,7 +55,7 @@ export default {
           desc:
             "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 and nothing else! All CSS, HTML and Javascript was developed to ensure the most personalized experience possible.",
           img: "portfolio.png",
-          git: "https://github.com/Casto1387/portfolio",
+          git: "https://github.com/CaastOS/portfolio",
           target: "_blank",
         },
         {
@@ -63,15 +63,15 @@ export default {
           desc:
             '"Camera D\'Ascolto" is a project carried out a few years ago for customers who required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
           img: "cameradascolto.jpg",
-          git: "https://github.com/Casto1387/cameradascolto",
+          git: "https://github.com/CaastOS/cameradascolto",
           target: "_blank",
         },
 		{
           title: "Blackjack Web Application",
           desc:
-            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla javascript.",
+            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla Javascript.",
           img: "blackjack.jpg",
-          git: "https://github.com/Casto1387/blackjack"
+          git: "https://github.com/CaastOS/blackjack"
         },
         {
           title: "Cimenailfilm",
