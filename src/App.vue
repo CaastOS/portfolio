@@ -32,18 +32,18 @@ export default {
     return {
       isUrl: false,
       aboutMe: [
-        { type: "currentLocation", cont: '"Milan, Italy"' },
-        { type: "interests", cont: '["Design", "gaming", "data", "fitness"]' },
+        { type: "currentLocation", cont: '"Maastricht, NL"' },
+        { type: "interests", cont: '["design", "gaming", "data", "fitness"]' },
         {
           type: "technologies",
-          cont: '["Python", "Vue.JS", "Flask", "Javascript"]',
+          cont: '["Python", "Java", "HTML", "CSS", "Javascript", "Vue.js", "Node.js"]',
         },
         { type: "occupation", cont: '"Student"' },
         {
           type: "footerCredits",
           cont: '"Made by Claudio Castorina | Copyright 2021"',
         },
-        { type: "favouriteColour", cont: '"#b86363"' },
+        { type: "favouriteColour", cont: '"#b86363"'},
         {
           type: "languages",
           cont: '["English", "Dutch", "German", "Italian"]',
@@ -133,4 +133,11 @@ html {
   margin: 0 auto;
   padding-bottom: 0.6rem;
 }
+
+#terminal > ul:nth-child(1) > li:nth-child(8) > div.item > span:hover {
+  color: #b86363;
+  transition: 0.3s all;
+  cursor: text;
+}
+
 </style>

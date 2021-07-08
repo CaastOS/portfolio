@@ -4,9 +4,8 @@
     <p>
       Hello there! I am Claudio, and I'm a freelancer based in Milan, Italy. When
       I'm not designing and developing websites, I am probably working at some
-      other data-related projects.
-      <a href="#terminal" @click="curiosity">Here</a> you can learn more about me!
-      From September 2021 I will be starting my studies in Data Science and Artificial Intelligence at Maastricht University.
+      other data-related projects. I'm currently a student of Data Science and Artificial Intelligence at Maastricht University.
+      <br><a href="#terminal" @click="curiosity">Here</a> you can learn more about me!
     </p>
   </div>
 </template>
