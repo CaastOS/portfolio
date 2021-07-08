@@ -61,7 +61,7 @@ export default {
         {
           title: "Camera D'Ascolto",
           desc:
-            '"Camera D\'Ascolto" was definitely the most difficult site to develop, as I was specifically required to use Mobirise, a "what you see is what you get" type editor. The hard part was to edit all the blocks to the lowest possible level and to be able to make it all work. The heroic act is on Github, although getting the hang of it is very complicated.',
+            '"Camera D\'Ascolto" is a project carried out a few years ago for customers who required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
           img: "cameradascolto.jpg",
           git: "https://github.com/Casto1387/cameradascolto",
           target: "_blank",
@@ -84,7 +84,7 @@ export default {
         {
           title: "Firewall Gaming",
           desc:
-            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was created on Laravel, and my job was to develop the front-end side. The website is not on github for copyright reasons, but I'm available to show it to anyone interested.",
+            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was created on Laravel, and my job was to develop the front-end side. The website is not on GitHub, but I'm available to show it to anyone interested.",
           img: "firewallgaming.jpg",
           git: "#",
           isDisabled: true,
