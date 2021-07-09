@@ -66,6 +66,14 @@ export default {
           git: "https://github.com/CaastOS/cameradascolto",
           target: "_blank",
         },
+        {
+          title: "A Virtual World",
+          desc:
+            '""A Virtual World" is, as you may already suspect, a virtual world. For this project I used Javascript (TypeScript), Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but inside there is a secret (but not too secret) message that explains why it was born!',
+          img: "avirtualworld.png",
+          git: "https://github.com/CaastOS/avirtualworld",
+          target: "_blank",
+        },
 		{
           title: "Blackjack Web Application",
           desc:
