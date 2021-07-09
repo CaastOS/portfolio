@@ -61,7 +61,7 @@ export default {
         {
           title: "Camera D'Ascolto",
           desc:
-            '"Camera D\'Ascolto" is a project carried out a few years ago for customers who required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
+            '"Camera D\'Ascolto" is a project carried out a few years ago for a customer that required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
           img: "cameradascolto.jpg",
           git: "https://github.com/CaastOS/cameradascolto",
           target: "_blank",
