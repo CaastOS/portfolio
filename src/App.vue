@@ -59,14 +59,6 @@ export default {
           target: "_blank",
         },
         {
-          title: "Camera D'Ascolto",
-          desc:
-            '"Camera D\'Ascolto" is a project carried out a few years ago for a customer that required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
-          img: "cameradascolto.jpg",
-          git: "https://github.com/CaastOS/cameradascolto",
-          target: "_blank",
-        },
-        {
           title: "A Virtual World",
           desc:
             '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but inside there is a secret (but not too secret) message that explains why it was born!',
@@ -74,6 +66,23 @@ export default {
           git: "https://github.com/CaastOS/avirtualworld",
           target: "_blank",
         },
+        {
+          title: "MusicHint",
+          desc:
+            'MusicHint is a side-project I made entirely for fun. What\'s its purpose? It gives you music recommendation! For this project I used Vue.js, JQuery and TasteDive API.',
+          img: "musichint.jpeg",
+          git: "https://github.com/CaastOS/musichint",
+          target: "_blank",
+        },
+        {
+          title: "Camera D'Ascolto",
+          desc:
+            '"Camera D\'Ascolto" is a project carried out a few years ago for a customer that required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
+          img: "cameradascolto.jpg",
+          git: "https://github.com/CaastOS/cameradascolto",
+          target: "_blank",
+        },
+        
 		{
           title: "Blackjack Web Application",
           desc:
