@@ -70,7 +70,7 @@ export default {
           title: "MusicHint",
           desc:
             'MusicHint is a side-project I made entirely for fun. What\'s its purpose? It gives you music recommendation! For this project I used Vue.js, JQuery and TasteDive API.',
-          img: "musichint.jpeg",
+          img: "musichint.jpg",
           git: "https://github.com/CaastOS/musichint",
           target: "_blank",
         },
