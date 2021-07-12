@@ -53,7 +53,7 @@ export default {
         {
           title: "Claudio Castorina's Portfolio",
           desc:
-            "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 and nothing else! All CSS, HTML and Javascript was developed to ensure the most personalized experience possible.",
+            "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 to ensure the most personalized experience possible.",
           img: "portfolio.png",
           git: "https://github.com/CaastOS/portfolio",
           target: "_blank",
@@ -61,7 +61,7 @@ export default {
         {
           title: "A Virtual World",
           desc:
-            '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but inside there is a secret (but not too secret) message that explains why it was born!',
+            '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but you may find a little secret (but not too secret) message inside the game that explains why it was born!',
           img: "avirtualworld.jpg",
           git: "https://github.com/CaastOS/avirtualworld",
           target: "_blank",
