@@ -78,15 +78,6 @@ export default {
           target: "_blank",
         },
         {
-          title: "A Virtual World",
-          desc:
-            '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but you may find a little secret (but not too secret) message inside the game that explains why it was born!',
-          img: "avirtualworld.jpg",
-          git: "https://github.com/CaastOS/avirtualworld",
-          link: "https://avirtualworld.claudiocastorina.com",
-          target: "_blank",
-        },
-        {
           title: "Firewall Gaming",
           desc:
             "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was based on Laravel, and my job was to develop the front-end side. The website is not on GitHub, but I'm available to show it to anyone interested.",
