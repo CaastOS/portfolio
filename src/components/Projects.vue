@@ -8,7 +8,14 @@
         <p>
           {{ project.desc }}
         </p>
+
         <div class="source">
+          <div class="left-button">
+            <a :class="{ disabled: project.isDisabled }"
+              :href="project.link"
+              :target="project.target"
+              class="project-link">Try it out!</a>
+          </div>
           <div class="button">
             <a
               :class="{ disabled: project.isDisabled }"
@@ -93,6 +100,18 @@ export default {
   font-family: "Roboto Mono", monospace;
 }
 
+.live {
+  margin-top: 6vh;
+  width: 100%;
+}
+
+.left-button {
+  margin-left: 7vh;
+  text-align: left;
+  float: left;
+}
+
+
 .source {
   padding-bottom: 5vh;
   margin-top: 6vh;
@@ -135,9 +154,9 @@ svg:not(:root).svg-inline--fa {
   background: #b86363;
   color: #fff;
   transition: all 0.15s ease;
-  -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
 }
 
 .project-link:hover {
@@ -172,7 +191,7 @@ svg:not(:root).svg-inline--fa {
   }
 }
 
-@media (max-width: 514px) {
+@media (max-width: 540px) {
   .content h3 {
     margin: 0 auto;
     padding: 40px 20px;
@@ -187,6 +206,13 @@ svg:not(:root).svg-inline--fa {
   .button {
     margin: 0;
     text-align: center;
+  }
+  .left-button {
+    float: none;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1.5rem;
+    
   }
 }
 </style>

@@ -56,14 +56,16 @@ export default {
             "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 to ensure the most personalized experience possible.",
           img: "portfolio.png",
           git: "https://github.com/CaastOS/portfolio",
+          link: "#",
           target: "_blank",
         },
         {
-          title: "A Virtual World",
+          title: "Spotifpy",
           desc:
-            '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but you may find a little secret (but not too secret) message inside the game that explains why it was born!',
-          img: "avirtualworld.jpg",
-          git: "https://github.com/CaastOS/avirtualworld",
+            'Spotifpy is a web application created in Python and based on Flask and Socket.io. The live version of the website shown below constantly shows what I\'m listening to, see readme for more information.',
+          img: "spotifpy.jpg",
+          git: "https://github.com/CaastOS/spotifpy",
+          link: "https://spotifpy.herokuapp.com",
           target: "_blank",
         },
         {
@@ -72,38 +74,25 @@ export default {
             'MusicHint is a side-project I made entirely for fun. What\'s its purpose? It gives you music recommendation! For this project I used Vue.js, JQuery and TasteDive API.',
           img: "musichint.jpg",
           git: "https://github.com/CaastOS/musichint",
+          link: "https://musichint.claudiocastorina.com",
           target: "_blank",
         },
         {
-          title: "Camera D'Ascolto",
+          title: "A Virtual World",
           desc:
-            '"Camera D\'Ascolto" is a project carried out a few years ago for a customer that required a very high degree of flexibility. It consists of a few front-end pages and the implementation of an external booking system via iframe.',
-          img: "cameradascolto.jpg",
-          git: "https://github.com/CaastOS/cameradascolto",
+            '"A Virtual World" is, as you may already suspect, a virtual world. For this project I used TypeScript, Phaser3 and Parcel.js. I\'m not currently planning to do much with this application, but you may find a little secret (but not too secret) message inside the game that explains why it was born!',
+          img: "avirtualworld.jpg",
+          git: "https://github.com/CaastOS/avirtualworld",
+          link: "https://avirtualworld.claudiocastorina.com",
           target: "_blank",
-        },
-        
-		{
-          title: "Blackjack Web Application",
-          desc:
-            "This is a web application made as a hobby a while ago. As the title explains, it's a fully functional though relatively basic blackjack. It is done completely in vanilla Javascript.",
-          img: "blackjack.jpg",
-          git: "https://github.com/CaastOS/blackjack"
-        },
-        {
-          title: "Cimenailfilm",
-          desc:
-            "Cimenailfilm was the first site I created, and unfortunately I no longer have the source code. The site can be found on the wayback machine, and in any case I wanted to mention it because it was the beginning of everything, for me. It was entirely made in Bootstrap.",
-          img: "cimenailfilm.jpeg",
-          git: "#",
-          isDisabled: true,
         },
         {
           title: "Firewall Gaming",
           desc:
-            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was created on Laravel, and my job was to develop the front-end side. The website is not on GitHub, but I'm available to show it to anyone interested.",
+            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was based on Laravel, and my job was to develop the front-end side. The website is not on GitHub, but I'm available to show it to anyone interested.",
           img: "firewallgaming.jpg",
           git: "#",
+          link: "#",
           isDisabled: true,
         }
 		
