@@ -29,7 +29,7 @@
           <a
             class="nostyle"
             target="_blank"
-            href="Claudio_Eugenio Castorina_Resume.pdf"
+            href="Claudio_Castorina_Resume.pdf"
           >"CV"</a>]
         </span>
       </div>
