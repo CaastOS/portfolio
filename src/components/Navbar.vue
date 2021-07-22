@@ -1,8 +1,14 @@
 <template>
   <div class="container-nav">
     <nav class="navbar">
-      <a href="#terminal" @click="curious">About</a>
-      <a href="#projects" @click="project">Projects</a>
+      <a
+        href="#terminal"
+        @click="curious"
+      >About</a>
+      <a
+        href="#projects"
+        @click="project"
+      >Projects</a>
     </nav>
   </div>
 </template>

@@ -1,33 +1,63 @@
 <template>
-  <div class="terminal" v-if="isCurious" id="terminal">
+  <div
+    class="terminal"
+    v-if="isCurious"
+    id="terminal"
+  >
     <ul>
-      <div><li class="blue">> Claudio.contactInfo</li></div>
-      <div class="item">
-        <span
-          >[<a class="nostyle" href="https://github.com/caastOS" target="_blank">"GitHub"</a>,
-          <a class="nostyle" target="_blank" href="mailto:claudioeugenio.castorina@gmail.com"
-            >"mail"</a
-          >,
-          <a class="nostyle" target="_blank" href="https://www.linkedin.com/in/claudiocastorina2/"
-            >"LinkedIn"</a
-          >]</span
-        >
+      <div>
+        <li class="blue">> Claudio.contactInfo</li>
       </div>
-      <li v-for="items in aboutMe" :key="items">
+      <div class="item">
+        <span>
+          [
+          <a
+            class="nostyle"
+            href="https://github.com/caastOS"
+            target="_blank"
+          >"GitHub"</a>,
+          <a
+            class="nostyle"
+            target="_blank"
+            href="mailto:claudioeugenio.castorina@gmail.com"
+          >"mail"</a>,
+          <a
+            class="nostyle"
+            target="_blank"
+            href="https://www.linkedin.com/in/claudiocastorina2/"
+          >"LinkedIn"</a>,
+          <a
+            class="nostyle"
+            target="_blank"
+            href="Claudio_Eugenio Castorina_Resume.pdf"
+          >"CV"</a>]
+        </span>
+      </div>
+      <li
+        v-for="items in aboutMe"
+        :key="items"
+      >
         <div class="blue">
-          <li>> Claudio.{{ items.type }}</li>
-        </div>
-        <div class="item">
-          <span>{{ items.cont }}</span>
-        </div>
-      </li>
-      <div><li class="blue">> Claudio.webProjectsInfo</li></div>
-      <div class="item">
-        "<a class="nostyle" href="#projects" @click="project">click me to learn more</a>"
-      </div>
-    </ul>
-    <ul></ul>
-    <p @click="exit">{{ terminalLastRow }}</p>
+      <li>> Claudio.{{ items.type }}</li>
+  </div>
+  <div class="item">
+    <span>{{ items.cont }}</span>
+  </div>
+  </li>
+  <div>
+    <li class="blue">> Claudio.webProjectsInfo</li>
+  </div>
+  <div class="item">
+    "
+    <a
+      class="nostyle"
+      href="#projects"
+      @click="project"
+    >click me to learn more</a>"
+  </div>
+  </ul>
+  <ul></ul>
+  <p @click="exit">{{ terminalLastRow }}</p>
   </div>
 </template>
 
@@ -47,7 +77,6 @@ export default {
 </script>
 
 <style>
-
 a.nostyle:link {
   text-decoration: inherit;
   color: rgb(68, 139, 184);
@@ -88,7 +117,7 @@ a.nostyle:visited {
 
 .terminal {
   font-family: "Roboto Mono", monospace;
-  box-sizing : border-box;
+  box-sizing: border-box;
   width: 80vw;
   margin: 5rem auto;
   padding: 25px 5px 5px;

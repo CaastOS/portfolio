@@ -1,6 +1,9 @@
 <template>
   <div class="container-main">
-    <Navbar @curious="curious" @project="project" />
+    <Navbar
+      @curious="curious"
+      @project="project"
+    />
     <Header @curious="curious" />
     <Terminal
       id="terminal"
@@ -10,7 +13,10 @@
       @uncurious="uncurious"
       @project="project"
     />
-    <Projects :isProject="isProject" :projects="projects" />
+    <Projects
+      :isProject="isProject"
+      :projects="projects"
+    />
   </div>
 </template>
 
@@ -33,17 +39,16 @@ export default {
       isUrl: false,
       aboutMe: [
         { type: "currentLocation", cont: '"Maastricht, NL"' },
-        { type: "interests", cont: '["design", "gaming", "data", "fitness"]' },
+        { type: "interests", cont: '["Guitar", "Languages", "Bodyweight fitness", "Gaming"]' },
         {
-          type: "technologies",
-          cont: '["Python", "Java", "HTML", "CSS", "Javascript", "Vue.js", "Node.js"]',
+          type: "favouriteTechnologies",
+          cont: '["MongoDB", "Express", "Vue.js", "Node.js", "SASS", "PUG"]',
         },
-        { type: "occupation", cont: '"Student"' },
         {
           type: "footerCredits",
           cont: '"Made by Claudio Castorina | Copyright 2021"',
         },
-        { type: "favouriteColour", cont: '"#b86363"'},
+        { type: "favouriteColour", cont: '"#b86363"' },
         {
           type: "languages",
           cont: '["English", "Dutch", "German", "Italian"]',
@@ -53,7 +58,7 @@ export default {
         {
           title: "Claudio Castorina's Portfolio",
           desc:
-            "That's right, this is the page you're looking at! At the moment I think it's the website that most reflects my style, it was developed with Vue.js 3 to ensure the most personalized experience possible.",
+            "That's right, this is the page you're looking at! This is the first real website I developed in Vue.js 3, but it continues to be a work that I proudly display, even after almost a year since its original development. Bringing my attention from React to Vue, I can say that this is the project that has influenced me the most.",
           img: "portfolio.png",
           git: "https://github.com/CaastOS/portfolio",
           link: "#",
@@ -62,31 +67,30 @@ export default {
         {
           title: "Spotifpy",
           desc:
-            'Spotifpy is a web application created in Python and based on Flask and Socket.io. The live version of the website shown below constantly shows what I\'m listening to, see readme for more information.',
+            'Spotifpy is a web application created in Python and based on Flask and Socketio. Its purpose is simple, it shows the song you\'re listening to on Spotify in a nice graphical interface, to be displayed on a possible unused second monitor (or at least, that\'s what I do!). The live version shown below constantly shows what I\'m listening to, but I\'ve posted a release on GitHub so that everyone can use this program with their own Spotify profile.',
           img: "spotifpy.jpg",
           git: "https://github.com/CaastOS/spotifpy",
           link: "https://spotifpy.herokuapp.com",
           target: "_blank",
         },
         {
+          title: "MidiPlayer",
+          desc:
+            "MidiPlayer is a DAW (digital audio workstation), i.e. a web application that simulates a musical work environment and allows you to compose music. To set myself a personal challenge, I decided not to use any library to help me, and to build this application solely in plain Javascript. The application is based on Vue.js 3 and uses SASS as CSS extension language.",
+          img: "midiplayer.jpg",
+          git: "https://github.com/CaastOS/midiplayer",
+          link: "https://midiplayer.claudiocastorina.com",
+          target: "_blank",
+        },
+        {
           title: "MusicHint",
           desc:
-            'MusicHint is a side-project I made entirely for fun. What\'s its purpose? It gives you music recommendation! For this project I used Vue.js, JQuery and TasteDive API.',
+            'MusicHint is a project that started as a way of satisfying a friend of mine who was constantly asking for advice on new music to listen to, but has developed into something more serious to take forward. As the title says, its function is to provide music artist recommendations, based on the input of an artist chosen by the user. To do this I used Vue.js, JQuery and the TasteDive API.',
           img: "musichint.jpg",
           git: "https://github.com/CaastOS/musichint",
           link: "https://musichint.claudiocastorina.com",
           target: "_blank",
         },
-        {
-          title: "Firewall Gaming",
-          desc:
-            "Firewall Gaming was one of the most famous eSports associations in Italy around the 2015s. The site was based on Laravel, and my job was to develop the front-end side. The website is not on GitHub, but I'm available to show it to anyone interested.",
-          img: "firewallgaming.jpg",
-          git: "#",
-          link: "#",
-          isDisabled: true,
-        }
-		
       ],
       isCurious: false,
       isProject: false,
@@ -136,5 +140,4 @@ html {
   transition: 0.3s all;
   cursor: text;
 }
-
 </style>

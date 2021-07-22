@@ -1,11 +1,13 @@
 <template>
-  <h1 id="name">Claudio Castorina</h1>
+  <h1 id="name">I'm Claudio Castorina.</h1>
   <div id="desc">
     <p>
-      Hello there! I am Claudio, and I'm a freelancer based in Milan, Italy. When
-      I'm not designing and developing websites, I am probably working at some
-      other data-related projects. I'm currently a student of Data Science and Artificial Intelligence at Maastricht University.
-      <br><a href="#terminal" @click="curiosity">Here</a> you can learn more about me!
+      I'm a Full Stack Developer as well as a student of Data Science and AI at Maastricht University. I make web applications,
+      usually with Vue.js. Click
+      <a
+        href="#terminal"
+        @click="curiosity"
+      >here</a> to get to know me better!
     </p>
   </div>
 </template>
