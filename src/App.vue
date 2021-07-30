@@ -65,6 +65,15 @@ export default {
           target: "_blank",
         },
         {
+          title: "The Trapped Knight",
+          desc:
+            "Based on the chess-based problem invented by Neil Sloane, \"The Trapped Knight\" is a vanilla Javascript application that allows you to simulate this problem in real time. It also allows you to bend the rules of the simulation itself, making it much more interesting and interactive. Once the problem has come to an end, an interactive graph will be displayed with all the data needed to understand its path.",
+          img: "trappedknight.png",
+          git: "https://github.com/CaastOS/trappedknight",
+          link: "https://trappedknight.claudiocastorina.com/",
+          target: "_blank",
+        },
+        {
           title: "Spotifpy",
           desc:
             'Spotifpy is a web application created in Python and based on Flask and Socketio. Its purpose is simple, it shows the song you\'re listening to on Spotify in a nice graphical interface, to be displayed on a possible unused second monitor (or at least, that\'s what I do!). The live version shown below constantly shows what I\'m listening to, but I\'ve posted a release on GitHub so that everyone can use this program with their own Spotify profile.',
