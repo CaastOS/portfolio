@@ -143,10 +143,4 @@ html {
   margin: 0 auto;
   padding-bottom: 0.6rem;
 }
-
-#terminal > ul:nth-child(1) > li:nth-child(8) > div.item > span:hover {
-  color: #b86363;
-  transition: 0.3s all;
-  cursor: text;
-}
 </style>

@@ -69,7 +69,7 @@ export default {
       this.$emit("uncurious");
     },
     project() {
-      this.$emit("project")
+      this.$emit("project");
     }
   },
 
@@ -162,6 +162,12 @@ a.nostyle:visited {
   width: 4px;
   height: 1.3rem;
   margin-left: 5px;
+}
+
+#terminal > ul:nth-child(1) > li:nth-child(7) > div.item > span:hover {
+  color: #b86363;
+  transition: 0.3s all;
+  cursor: text;
 }
 
 @-webkit-keyframes blink {
