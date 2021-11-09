@@ -39,9 +39,9 @@ export default {
       isUrl: false,
       aboutMe: [
         { type: "currentLocation", cont: '"Maastricht, NL"' },
-        { type: "interests", cont: '["Guitar", "Languages", "Bodyweight fitness", "Gaming"]' },
+        { type: "interests", cont: '["Guitar", "Languages", "Bouldering"]' },
         {
-          type: "favouriteTechnologies",
+          type: "myWebStack",
           cont: '["MongoDB", "Express", "Vue.js", "Node.js", "SASS", "PUG"]',
         },
         {
@@ -51,7 +51,7 @@ export default {
         { type: "favouriteColour", cont: '"#b86363"' },
         {
           type: "languages",
-          cont: '["English", "Dutch", "German", "Italian"]',
+          cont: '["English", "German", "Italian"]',
         },
       ],
       projects: [
