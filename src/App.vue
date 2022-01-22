@@ -69,7 +69,7 @@ export default {
           desc:
             "JavaFX-driven application to visualize different algorithms in the solving of three-dimensional knapsack problems. Different algorithms such as Knuth's Dancing Links and GAs are implemented and discussed in both the README and report.",
           img: "knapsack.png",
-          git: "https://github.com/CaastOS/3dknapsackproblem",
+          git: "https://github.com/CaastOS/3dknapsacksolver",
           isDisabled: true,
         },
         {

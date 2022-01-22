@@ -30,7 +30,6 @@
           </div>
           <div class="button">
             <a
-              :class="{ disabled: project.isDisabled }"
               :href="project.git"
               :target="project.target"
               class="project-link"
