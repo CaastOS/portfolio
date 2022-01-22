@@ -71,6 +71,7 @@ export default {
           img: "knapsack.png",
           git: "https://github.com/CaastOS/3dknapsacksolver",
           isDisabled: true,
+          target: "_blank",
         },
         {
           title: "The Trapped Knight",
