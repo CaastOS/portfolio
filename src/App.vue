@@ -41,8 +41,8 @@ export default {
         { type: "currentLocation", cont: '"Maastricht, NL"' },
         { type: "interests", cont: '["Guitar", "Languages", "Bouldering"]' },
         {
-          type: "myWebStack",
-          cont: '["MongoDB", "Express", "Vue.js", "Node.js", "SASS", "PUG"]',
+          type: "technologies",
+          cont: '["Java", "MongoDB", "Express", "Vue.js", "Node.js", "SASS", "PUG"]',
         },
         {
           type: "footerCredits",
@@ -63,6 +63,14 @@ export default {
           git: "https://github.com/CaastOS/portfolio",
           link: "#",
           target: "_blank",
+        },
+        {
+          title: "3D Knapsack Solver",
+          desc:
+            "JavaFX-driven application to visualize different algorithms in the solving of three-dimensional knapsack problems. Different algorithms such as Knuth's Dancing Links and GAs are implemented and discussed in both the README and report.",
+          img: "knapsack.png",
+          git: "https://github.com/CaastOS/3dknapsackproblem",
+          isDisabled: true,
         },
         {
           title: "The Trapped Knight",
@@ -90,16 +98,7 @@ export default {
           git: "https://github.com/CaastOS/midiplayer",
           link: "https://midiplayer.claudiocastorina.com",
           target: "_blank",
-        },
-        {
-          title: "MusicHint",
-          desc:
-            'MusicHint is a project that started as a way of satisfying a friend of mine who was constantly asking for advice on new music to listen to, but has developed into something more serious to take forward. As the title says, its function is to provide music artist recommendations, based on the input of an artist chosen by the user. To do this I used Vue.js, JQuery and the TasteDive API.',
-          img: "musichint.jpg",
-          git: "https://github.com/CaastOS/musichint",
-          link: "https://musichint.claudiocastorina.com",
-          target: "_blank",
-        },
+        }
       ],
       isCurious: false,
       isProject: false,
