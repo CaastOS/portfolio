@@ -45,7 +45,7 @@
   </div>
   </li>
   <div>
-    <li class="blue">> Claudio.webProjectsInfo</li>
+    <li class="blue">> Claudio.projectsInfo</li>
   </div>
   <div class="item">
     "
