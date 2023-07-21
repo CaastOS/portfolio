@@ -1,13 +1,18 @@
 <template>
-  <h1 id="name">I'm Claudio Castorina.</h1>
+  <h1 id="name">Claudio Castorina</h1>
+  <h2 id="role">Machine Learning Intern | <a
+      href="https://iconpro.com/en/"
+      class="nostyle"
+      target="_blank"
+      id="job"
+    > IconPro GmbH</a></h2>
   <div id="desc">
     <p>
-      I'm a Full Stack Developer as well as a student of Data Science and AI at Maastricht University. I make web applications,
-      usually with Vue.js. Click
-      <a
+      I used to develop web applications. Now, I make machines learn. Learn <a
         href="#terminal"
+        class="nostyle"
         @click="curiosity"
-      >here</a> to get to know me better!
+      >more</a>.
     </p>
   </div>
 </template>
@@ -28,12 +33,28 @@ export default {
   display: flex;
   letter-spacing: 4.5pt;
   font-size: 3.3em;
-  padding-top: 8vh;
+  padding-top: 4vh;
   width: 100%;
   font-family: "Playfair Display", serif;
   color: #313026;
+  margin-bottom: 0;
 }
 
+#role {
+  display: flex;
+  letter-spacing: 0.3pt;
+  padding-left: 0.2vw;
+  font-size: 1.2rem;
+  width: 100%;
+  font-family: "Roboto Mono", serif;
+  color: #313026;
+  margin-top: 0.5vh;
+  margin-bottom: 0.7vh;
+}
+
+#job {
+  margin-left: 0.5vw;
+}
 #desc {
   display: flex;
   letter-spacing: 0.3pt;

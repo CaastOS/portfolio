@@ -39,35 +39,34 @@ export default {
       isUrl: false,
       aboutMe: [
         { type: "currentLocation", cont: '"Maastricht, NL"' },
-        { type: "interests", cont: '["Guitar", "Languages", "Bouldering"]' },
+        { type: "interests", cont: '["Guitar", "Bouldering"]' },
         {
-          type: "technologies",
-          cont: '["Java", "MongoDB", "Express", "Vue.js", "Node.js", "SASS", "PUG"]',
+          type: "programmingLanguages",
+          cont: '["Python", "Java", "C++", "Javascript"]',
+        },
+        {
+          type: "languages",
+          cont: '["English", "Italian"]',
         },
         {
           type: "footerCredits",
-          cont: '"Made by Claudio Castorina | Copyright 2021"',
-        },
-        { type: "favouriteColour", cont: '"#b86363"' },
-        {
-          type: "languages",
-          cont: '["English", "German", "Italian"]',
+          cont: '"Made by Claudio Castorina | Copyright 2023"',
         },
       ],
       projects: [
         {
-          title: "Claudio Castorina's Portfolio",
+          title: "Yoda Summarizer",
           desc:
-            "That's right, this is the page you're looking at! This is the first real website I developed in Vue.js 3, but it continues to be a work that I proudly display, even after almost a year since its original development. Bringing my attention from React to Vue, I can say that this is the project that has influenced me the most.",
-          img: "portfolio.png",
-          git: "https://github.com/CaastOS/portfolio",
-          link: "#",
+            "NLP academic project that summarizes news using the weird english syntax Yoda speaks in Star Wars. Different stages of the project use different NLP techniques, such as transfomers finetuning (T5, Pegasus, BART), Graph-based Text Summarization (TextRank) and POS Tagging (spaCy). This project was done in a group of four people, more credits and information can be found in the academic report.",
+          img: "yoda.jpg",
+          git: "https://github.com/CaastOS/3dknapsacksolver",
+          isDisabled: true,
           target: "_blank",
         },
         {
           title: "3D Knapsack Solver",
           desc:
-            "JavaFX-driven application to visualize different algorithms in the solving of three-dimensional knapsack problems. Different algorithms such as Knuth's Dancing Links and GAs are implemented and discussed in both the README and report.",
+            "JavaFX-driven application to visualize different algorithms in the solving of three-dimensional knapsack problems. Different algorithms such as Knuth's Dancing Links and GAs are implemented and discussed in both the README and academic report.",
           img: "knapsack.png",
           git: "https://github.com/CaastOS/3dknapsacksolver",
           isDisabled: true,
@@ -85,35 +84,26 @@ export default {
         {
           title: "Spotifpy",
           desc:
-            'Spotifpy is a web application created in Python and based on Flask and Socketio. Its purpose is simple, it shows the song you\'re listening to on Spotify in a nice graphical interface, to be displayed on a possible unused second monitor (or at least, that\'s what I do!). The live version shown below constantly shows what I\'m listening to, but I\'ve posted a release on GitHub so that everyone can use this program with their own Spotify profile.',
+            'Spotifpy is a web application created in Python and based on Flask and Socketio. Its purpose is simple, it shows the song you\'re listening to on Spotify in a nice graphical interface, to be displayed on a possible unused second monitor (or at least, that\'s what I do!). The live version shown below constantly shows what I\'m listening to, but I\'ve posted a release on GitHub so that everyone can use this program with their own Spotify profile. Even though Spotify now has a full-screen version which does literally this, at the time of creation it didn\'t, so I decided to create it myself.',
           img: "spotifpy.jpg",
           git: "https://github.com/CaastOS/spotifpy",
           link: "https://spotifpy.herokuapp.com",
           target: "_blank",
         },
-        {
-          title: "MidiPlayer",
-          desc:
-            "MidiPlayer is a DAW (digital audio workstation), i.e. a web application that simulates a musical work environment and allows you to compose music. To set myself a personal challenge, I decided not to use any library to help me, and to build this application solely in plain Javascript. The application is based on Vue.js 3 and uses SASS as CSS extension language.",
-          img: "midiplayer.jpg",
-          git: "https://github.com/CaastOS/midiplayer",
-          link: "https://midiplayer.claudiocastorina.com",
-          target: "_blank",
-        }
       ],
       isCurious: false,
       isProject: false,
-      terminalLastRow: "> click me to exit ",
+      terminalLastRow: "> exit ",
     };
   },
   methods: {
     curious() {
-      this.terminalLastRow = "> click me to exit ";
+      this.terminalLastRow = "> exit ";
       this.isCurious = true;
       this.isProject = false;
     },
     uncurious() {
-      this.terminalLastRow = "> Sorry to see you go :(";
+      this.terminalLastRow = "> :(";
       setTimeout(() => {
         this.isCurious = false;
       }, 1000);

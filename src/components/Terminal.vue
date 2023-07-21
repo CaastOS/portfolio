@@ -10,27 +10,21 @@
       </div>
       <div class="item">
         <span>
-          [
-          <a
+          [<a
             class="nostyle"
             href="https://github.com/caastOS"
             target="_blank"
-          >"GitHub"</a>,
+          >GitHub</a>,
           <a
             class="nostyle"
             target="_blank"
             href="mailto:claudioeugenio.castorina@gmail.com"
-          >"mail"</a>,
+          >mail</a>,
           <a
             class="nostyle"
             target="_blank"
             href="https://www.linkedin.com/in/claudiocastorina2/"
-          >"LinkedIn"</a>,
-          <a
-            class="nostyle"
-            target="_blank"
-            href="Claudio_Castorina_Resume.pdf"
-          >"CV"</a>]
+          >LinkedIn</a>]
         </span>
       </div>
       <li
@@ -48,12 +42,11 @@
     <li class="blue">> Claudio.projectsInfo</li>
   </div>
   <div class="item">
-    "
     <a
       class="nostyle"
       href="#projects"
       @click="project"
-    >click me to learn more</a>"
+    >Click!</a>
   </div>
   </ul>
   <ul></ul>
@@ -119,7 +112,8 @@ a.nostyle:visited {
   font-family: "Roboto Mono", monospace;
   box-sizing: border-box;
   width: 80vw;
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-top: 1.5rem;
   padding: 25px 5px 5px;
   border-radius: 10px;
   background: linear-gradient(
