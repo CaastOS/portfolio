@@ -50,7 +50,7 @@ export default {
         },
         {
           type: "currentFocus",
-          cont: '"[Research in industrial operations optimization, time series analysis and forecasting]"',
+          cont: '["Research in industrial operations optimization", "time series analysis and forecasting"]',
         },
         {
           type: "footerCredits",
