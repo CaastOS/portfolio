@@ -8,11 +8,11 @@
     > IconPro GmbH</a></h2>
   <div id="desc">
     <p>
-      I used to develop web applications. Now, I make machines learn. Learn <a
+      I used to develop web applications, now I make machines learn. Learn <a
         href="#terminal"
         class="nostyle"
         @click="curiosity"
-      >more</a>.
+      >more</a> about me!
     </p>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
 #desc {
   display: flex;
   letter-spacing: 0.3pt;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   width: 100%;
   font-family: "Roboto Mono", serif;
   color: #313026;

@@ -158,12 +158,6 @@ a.nostyle:visited {
   margin-left: 5px;
 }
 
-#terminal > ul:nth-child(1) > li:nth-child(7) > div.item > span:hover {
-  color: #b86363;
-  transition: 0.3s all;
-  cursor: text;
-}
-
 @-webkit-keyframes blink {
   0% {
     background: rgb(255, 255, 255, 0);
