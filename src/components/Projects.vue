@@ -26,7 +26,7 @@
               :href="project.link"
               :target="project.target"
               class="project-link"
-            >Try it out!</a>
+            >{{ project.type }}</a>
           </div>
           <div class="button">
             <a
