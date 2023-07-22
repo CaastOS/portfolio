@@ -113,7 +113,7 @@ a.nostyle:visited {
   box-sizing: border-box;
   width: 80vw;
   margin: 0 auto;
-  margin-top: 1.5rem;
+  margin-top: 0.8rem;
   padding: 25px 5px 5px;
   border-radius: 10px;
   background: linear-gradient(
