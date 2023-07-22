@@ -33,7 +33,6 @@ export default {
   display: flex;
   letter-spacing: 4.5pt;
   font-size: 3.3em;
-  padding-top: 4vh;
   width: 100%;
   font-family: "Playfair Display", serif;
   color: #313026;
