@@ -67,6 +67,11 @@ export default {
 </script>
 
 <style>
+#projects > div:nth-child(1) > div > div > div.button > a {
+  background: gray !important;
+  cursor: not-allowed;
+}
+
 #projects {
   padding-top: 5vh;
 }
