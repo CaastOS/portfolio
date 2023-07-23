@@ -1,6 +1,6 @@
 <template>
   <h1 id="name">Claudio Castorina</h1>
-  <h2 id="role">Machine Learning Intern | <a
+  <h2 id="role">Machine Learning Intern @<a
       href="https://iconpro.com/en/"
       class="nostyle"
       target="_blank"
@@ -51,8 +51,14 @@ export default {
   margin-bottom: 0.7vh;
 }
 
+/* on mobile don't show #role */
+@media (max-width: 767px) {
+  #role {
+    display: none;
+  }
+}
 #job {
-  margin-left: 0.5vw;
+  margin-left: 0.8vw;
 }
 #desc {
   display: flex;
