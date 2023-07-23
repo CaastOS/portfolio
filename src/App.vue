@@ -64,7 +64,7 @@ export default {
             "NLP academic project that summarizes news using the weird english syntax Yoda speaks in Star Wars. Different stages of the project use different NLP techniques, such as transfomers finetuning (T5, Pegasus, BART), Graph-based Text Summarization (TextRank) and POS Tagging (spaCy). This project was done in a group of five people, more credits and information can be found in the academic report.",
           img: "yoda.jpg",
           type: "Read more",
-          git: "https://github.com/CaastOS/3dknapsacksolver",
+          isDisabled: true,
           link: 'https://ttm.sh/Bgs.pdf',
           target: "_blank",
         },
