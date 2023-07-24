@@ -62,7 +62,7 @@ export default {
 }
 #desc {
   display: flex;
-  letter-spacing: 0.3pt;
+  letter-spacing: -0.3pt;
   font-size: 1.4rem;
   width: 100%;
   font-family: "Roboto Mono", serif;
