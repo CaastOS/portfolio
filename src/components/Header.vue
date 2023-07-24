@@ -41,7 +41,7 @@ export default {
 
 #role {
   display: flex;
-  letter-spacing: 0.3pt;
+  letter-spacing: -0.3pt;
   padding-left: 0.2vw;
   font-size: 1.2rem;
   width: 100%;
