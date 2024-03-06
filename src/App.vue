@@ -50,11 +50,11 @@ export default {
         },
         {
           type: "currentFocus",
-          cont: '["Research in industrial operations optimization", "Time series analysis and forecasting"]',
+          cont: '["Computer Vision for industrial processes", "Time series analysis and forecasting"]',
         },
         {
           type: "footerCredits",
-          cont: '"Made by Claudio Castorina | Copyright 2023"',
+          cont: '"Made by Claudio Castorina | Copyright 2024"',
         },
       ],
       projects: [
